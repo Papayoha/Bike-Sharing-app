@@ -52,7 +52,6 @@ class _QrState extends State<Qr> {
       cutOutSize: MediaQuery.of(context).size.width * 0.8,
     ),
   );
-  void onQRViewCreated(QRViewController controller) {
-    setState (() => this.controller= controller );
+
   }
 }
